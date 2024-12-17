@@ -29,5 +29,5 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Run Go Vulnerability Scanner
-        uses: debug-ing/go-vuln-scanner@v1.0
+        uses: debug-ing/go-vuln-scanner@v1.0.0
 ```
