@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  check-go-version:
+  vuln-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
